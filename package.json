@@ -1,0 +1,16 @@
+{
+  "name": "creative_coding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "author": "rengaret",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-wasm.rs": "^1.2.15",
+    "typescript": "^3.7.3"
+  }
+}

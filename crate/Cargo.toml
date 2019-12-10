@@ -1,0 +1,21 @@
+[package]
+name = "creative_coding"
+version = "0.1.0"
+authors = [ "gorecki gracjan <gorecki.gracjan@hotmail.com>" ]
+edition = "2018"
+
+[lib]
+crate-type = [ "cdylib" ]
+
+[dependencies]
+wasm-bindgen = "0.2.55"
+
+[dependencies.web-sys]
+version = "0.3.32"
+features = [
+  'Document',
+  'Element',
+  'HtmlElement',
+  'Node',
+  'Window',
+]
